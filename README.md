@@ -12,3 +12,9 @@ To simulate locally how Mixmax calls the resolver URL (to return HTML that goes 
 ```
 curl localhost:9146/resolver?url=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F34747143
 ```
+To test it locally, open the Mixmax Dashboard, click Integrations, and click Add Link Resolver.
+Enter the following for the parameters:
+
+Description: StackOverflow(stackoverflow.com/questions/*)
+Regular Expression: stackoverflow.com/questions/[0-9]+
+Resolver API URL: http://localhost:9146/resolver

@@ -1,4 +1,4 @@
-# Giphy Link Preview for Mixmax
+# Stack Overflow Link Preview for Mixmax
 
 This is an open source Mixmax Link Resolver. See <http://sdk.mixmax.com/docs/tutorial-giphy-link-preview> for more information about how to use this example code in Mixmax.
 
@@ -10,5 +10,5 @@ This is an open source Mixmax Link Resolver. See <http://sdk.mixmax.com/docs/tut
 To simulate locally how Mixmax calls the resolver URL (to return HTML that goes into the email), run:
 
 ```
-curl http://localhost:9146/resolver?url=http%3A%2F%2Fgiphy.com%2Fgifs%2Fexcited-the-office-yes-t3Mzdx0SA3Eis
+curl localhost:9146/resolver?url=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F34747143
 ```
